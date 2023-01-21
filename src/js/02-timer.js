@@ -34,8 +34,8 @@ const options = {
 flatpickr(input, options);
 
 function startTimer() {
-  // input.disabled = true;
-  // startBtn.disabled = true;
+  input.disabled = true;
+  startBtn.disabled = true;
   intervalId = setInterval(() => {
     const deltaTime = selectedDate - Date.now();
 
